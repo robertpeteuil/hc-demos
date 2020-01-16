@@ -1,0 +1,15 @@
+{
+	"credential_type": "iam_user",
+	"policy_document": {
+		"Version": "2012-10-17",
+		"Statement": [{
+			"Effect": "Allow",
+			"Action": [
+				"ec2:DescribeInstances"
+			],
+			"Resource": [
+				"arn:aws:iam::1234567890:user/vault-*"
+			]
+		}]
+	}
+}

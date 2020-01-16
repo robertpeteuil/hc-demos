@@ -21,14 +21,14 @@ unset VAULT_TOKEN
 pe "vault login $(cat .user_token)"
 
 # Zip Code Example
-pe "vault kv put kv/address zipcode=12345"
-yellow "write zip code that violates Sentinel Rule"
-pe "vault kv put kv/address zipcode=1234a"
+# pe "vault kv put kv/address zipcode=12345"
+# yellow "write zip code that violates Sentinel Rule"
+# pe "vault kv put kv/address zipcode=1234a"
 
-# State Example
-pe "vault kv put kv/address state=NY"
-yellow "write State that violates Sentinel Rule"
-pe "vault kv put kv/address state=NN"
+# # State Example
+# pe "vault kv put kv/address state=NY"
+# yellow "write State that violates Sentinel Rule"
+# pe "vault kv put kv/address state=NN"
 
 # AWS creds example
 pe "vault kv put kv/aws/config/root access_key=AAAAABBBBBCCCCCDDDDD secret_key=AAAAABBBBBCCCCCDDDDDAAAAABBBBBCCCCCDDDDD"
