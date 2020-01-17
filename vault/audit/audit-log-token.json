@@ -1,0 +1,187 @@
+{
+	"time": "2019-10-11T17:54:08.411259Z",
+	"type": "request",
+	"auth": {
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"display_name": "token",
+		"policies": ["default", "kv-beer"],
+		"token_policies": ["default", "kv-beer"],
+		"token_type": "service"
+	},
+	"request": {
+		"id": "d41ad82d-7af0-7930-697c-83775cac4ae1",
+		"operation": "read",
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"client_token_accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/token/lookup-self",
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2019-10-11T17:54:08.411555Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"display_name": "token",
+		"policies": ["default", "kv-beer"],
+		"token_policies": ["default", "kv-beer"],
+		"token_type": "service"
+	},
+	"request": {
+		"id": "d41ad82d-7af0-7930-697c-83775cac4ae1",
+		"operation": "read",
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"client_token_accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/token/lookup-self",
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"data": {
+			"accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+			"creation_time": 1570816346,
+			"creation_ttl": 2764800,
+			"display_name": "hmac-sha256:9b2142807aac6d1e12caa77071c49f92c0531f55714cc362bd39ad4a0263d9ef",
+			"entity_id": "hmac-sha256:8b4515ae5eb4b11bd2e371f4604a8c66b0d42376bb29bc2742998cc5e2d71d39",
+			"expire_time": "2019-11-12T10:52:26.411705-07:00",
+			"explicit_max_ttl": 0,
+			"id": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+			"issue_time": "2019-10-11T10:52:26.411705-07:00",
+			"meta": null,
+			"num_uses": 0,
+			"orphan": false,
+			"path": "hmac-sha256:e8f38c7a993d48b72b72e3b8671a62ab89743dee26ec6f44e6cf40763b69dd7b",
+			"policies": ["hmac-sha256:0fb1c869118fd9c9ce04c879f6b15539235158d7a62f61ce69fa7c328c5a07ba", "hmac-sha256:3522444c584b857ed186c7eff49f69b14c909f93b1b59c476ba81ad61f977e24"],
+			"renewable": true,
+			"ttl": 2764698,
+			"type": "hmac-sha256:253b6fa7f883ad1d921754c8fa1541824b9f10ec3a081e636cc5c5ce4c6107bb"
+		}
+	}
+} {
+	"time": "2019-10-11T17:54:17.654526Z",
+	"type": "request",
+	"auth": {
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"display_name": "token",
+		"policies": ["default", "kv-beer"],
+		"token_policies": ["default", "kv-beer"],
+		"token_type": "service"
+	},
+	"request": {
+		"id": "823f99f1-10ea-6bba-7731-dfeadb513d14",
+		"operation": "read",
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"client_token_accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/internal/ui/mounts/secret/db1/beer/read-only",
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2019-10-11T17:54:17.6551Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"display_name": "token",
+		"policies": ["default", "kv-beer"],
+		"token_policies": ["default", "kv-beer"],
+		"token_type": "service"
+	},
+	"request": {
+		"id": "823f99f1-10ea-6bba-7731-dfeadb513d14",
+		"operation": "read",
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"client_token_accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/internal/ui/mounts/secret/db1/beer/read-only",
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"data": {
+			"accessor": "hmac-sha256:1386b99e8f9a37b02080d61fd5bf8fc3d8daacf02db676ca178eecb5cc15aaa4",
+			"config": {
+				"default_lease_ttl": 0,
+				"force_no_cache": false,
+				"max_lease_ttl": 0
+			},
+			"description": "hmac-sha256:8b4515ae5eb4b11bd2e371f4604a8c66b0d42376bb29bc2742998cc5e2d71d39",
+			"local": false,
+			"options": {
+				"version": "hmac-sha256:ce36e2b33532dd89a3c544f355d797fc1f9245828e8ac1e22be118dfbbb0f21f"
+			},
+			"path": "hmac-sha256:ac244294efbf8d55e1003aa2b0989827a489b88843b128bf5edbb257e74ea0c1",
+			"seal_wrap": false,
+			"type": "hmac-sha256:6a84cd5cbde7dfc2f8486148172286367a21d153722445204c031485b7f5c146",
+			"uuid": "hmac-sha256:b9564479b860421316ebab4cc90faa79657130fdd672954360e5d23b3b37326f"
+		}
+	}
+} {
+	"time": "2019-10-11T17:54:17.657697Z",
+	"type": "request",
+	"auth": {
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"display_name": "token",
+		"policies": ["default", "kv-beer"],
+		"token_policies": ["default", "kv-beer"],
+		"token_type": "service"
+	},
+	"request": {
+		"id": "6456b302-72fc-6bd3-f1fe-2a17d26c813b",
+		"operation": "read",
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"client_token_accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "secret/data/db1/beer/read-only",
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2019-10-11T17:54:17.658001Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"display_name": "token",
+		"policies": ["default", "kv-beer"],
+		"token_policies": ["default", "kv-beer"],
+		"token_type": "service"
+	},
+	"request": {
+		"id": "6456b302-72fc-6bd3-f1fe-2a17d26c813b",
+		"operation": "read",
+		"client_token": "hmac-sha256:746af30528797397787f9f41cff345507c1952b8c8f025221eb40c7feef3bdf7",
+		"client_token_accessor": "hmac-sha256:bda0aec175b9501dbf60264cee61e227452f75fafd5e40f29c0541ebb379321f",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "secret/data/db1/beer/read-only",
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"data": {
+			"data": {
+				"password": "hmac-sha256:ca0f96bd69d15c5ecb6ffaf8c7cfdd234ea4eb2bef40478fc683ea5893d6349c",
+				"username": "hmac-sha256:eed16ab114089decc697f0b74d813306ae6fc48d4faea337e7366c81466cc681"
+			},
+			"metadata": {
+				"created_time": "hmac-sha256:18b3bc9fb742151680a5b2c54779430489d7464b60946e8882ae166cafc5e25d",
+				"deletion_time": "hmac-sha256:8b4515ae5eb4b11bd2e371f4604a8c66b0d42376bb29bc2742998cc5e2d71d39",
+				"destroyed": false,
+				"version": 1
+			}
+		}
+	}
+}
