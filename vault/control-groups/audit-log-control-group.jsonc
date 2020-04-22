@@ -1,0 +1,487 @@
+// LOGIN AS BOB
+{
+	"time": "2020-04-22T16:57:38.863191Z",
+	"type": "request",
+	"auth": {
+		"token_type": "default"
+	},
+	"request": {
+		"id": "b43635e5-e786-60d3-af90-fd67efa4dd3e",
+		"operation": "update",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/userpass/login/bob",
+		"data": {
+			"password": "hmac-sha256:96fcb166efc4a944e136d36bb3ca17bafa80b14c1b4347704144e717b78c4133"
+		},
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2020-04-22T16:57:38.93997Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:cb631beb1c75d3aacda7867de84e1f5dbd4156f0a8b41f46bfeec7d313858062",
+		"accessor": "hmac-sha256:6dba64e754212affdf19b6f103f85203ed21ed56618c2d1760a2ff2a898a0ae1",
+		"display_name": "userpass-bob",
+		"policies": ["default", "read-gdpr-order"],
+		"token_policies": ["default"],
+		"identity_policies": ["read-gdpr-order"],
+		"metadata": {
+			"username": "bob"
+		},
+		"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "b43635e5-e786-60d3-af90-fd67efa4dd3e",
+		"operation": "update",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/userpass/login/bob",
+		"data": {
+			"password": "hmac-sha256:96fcb166efc4a944e136d36bb3ca17bafa80b14c1b4347704144e717b78c4133"
+		},
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"auth": {
+			"client_token": "hmac-sha256:cb631beb1c75d3aacda7867de84e1f5dbd4156f0a8b41f46bfeec7d313858062",
+			"accessor": "hmac-sha256:6dba64e754212affdf19b6f103f85203ed21ed56618c2d1760a2ff2a898a0ae1",
+			"display_name": "userpass-bob",
+			"policies": ["default", "read-gdpr-order"],
+			"token_policies": ["default"],
+			"identity_policies": ["read-gdpr-order"],
+			"metadata": {
+				"username": "bob"
+			},
+			"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+			"token_type": "service"
+		}
+	}
+}
+
+// BOB CONTROL GROUP REQUEST
+{
+	"time": "2020-04-22T16:57:45.452924Z",
+	"type": "request",
+	"auth": {
+		"client_token": "hmac-sha256:cb631beb1c75d3aacda7867de84e1f5dbd4156f0a8b41f46bfeec7d313858062",
+		"accessor": "hmac-sha256:6dba64e754212affdf19b6f103f85203ed21ed56618c2d1760a2ff2a898a0ae1",
+		"display_name": "userpass-bob",
+		"policies": ["default", "read-gdpr-order"],
+		"token_policies": ["default"],
+		"identity_policies": ["read-gdpr-order"],
+		"metadata": {
+			"username": "bob"
+		},
+		"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "1a461015-1db6-b41a-e780-fed4edf693f8",
+		"operation": "update",
+		"client_token": "hmac-sha256:cb631beb1c75d3aacda7867de84e1f5dbd4156f0a8b41f46bfeec7d313858062",
+		"client_token_accessor": "hmac-sha256:6dba64e754212affdf19b6f103f85203ed21ed56618c2d1760a2ff2a898a0ae1",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/control-group/request",
+		"data": {
+			"accessor": "hmac-sha256:22c2863530705b6cafec13303ac2926ad7eb44276db9bc18d6f003f5202d93c3"
+		},
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2020-04-22T16:57:45.453708Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:cb631beb1c75d3aacda7867de84e1f5dbd4156f0a8b41f46bfeec7d313858062",
+		"accessor": "hmac-sha256:6dba64e754212affdf19b6f103f85203ed21ed56618c2d1760a2ff2a898a0ae1",
+		"display_name": "userpass-bob",
+		"policies": ["default", "read-gdpr-order"],
+		"token_policies": ["default"],
+		"identity_policies": ["read-gdpr-order"],
+		"metadata": {
+			"username": "bob"
+		},
+		"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "1a461015-1db6-b41a-e780-fed4edf693f8",
+		"operation": "update",
+		"client_token": "hmac-sha256:cb631beb1c75d3aacda7867de84e1f5dbd4156f0a8b41f46bfeec7d313858062",
+		"client_token_accessor": "hmac-sha256:6dba64e754212affdf19b6f103f85203ed21ed56618c2d1760a2ff2a898a0ae1",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/control-group/request",
+		"data": {
+			"accessor": "hmac-sha256:22c2863530705b6cafec13303ac2926ad7eb44276db9bc18d6f003f5202d93c3"
+		},
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"data": {
+			"approved": false,
+			"authorizations": null,
+			"request_entity": {
+				"id": "hmac-sha256:e9ed2a3ce4f6cbe7543af7e620c1dd3bfaad227ab82b643f27081a4dcd99e1b8",
+				"name": "hmac-sha256:55241f86f85e227938a78a67ca8812d844cd3ca53d4c7518cf95b78692ee401f"
+			},
+			"request_path": "hmac-sha256:8443d8ca5b585a1747e6836706cdd2bc0e5dc47589ce68c55ad1b0cd7c28267c"
+		}
+	}
+}
+
+
+/////////////////////
+// LOGIN ELLEN
+{
+	"time": "2020-04-22T16:58:03.847992Z",
+	"type": "request",
+	"auth": {
+		"token_type": "default"
+	},
+	"request": {
+		"id": "62feccb2-8a83-3e3b-fbd8-e7aaf805a413",
+		"operation": "update",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/userpass/login/ellen",
+		"data": {
+			"password": "hmac-sha256:96fcb166efc4a944e136d36bb3ca17bafa80b14c1b4347704144e717b78c4133"
+		},
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2020-04-22T16:58:03.924168Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"display_name": "userpass-ellen",
+		"policies": ["acct_manager", "default"],
+		"token_policies": ["default"],
+		"identity_policies": ["acct_manager", "default"],
+		"metadata": {
+			"username": "ellen"
+		},
+		"entity_id": "5556177d-9e72-52f0-c3ee-5c300f4c6ea8",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "62feccb2-8a83-3e3b-fbd8-e7aaf805a413",
+		"operation": "update",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/userpass/login/ellen",
+		"data": {
+			"password": "hmac-sha256:96fcb166efc4a944e136d36bb3ca17bafa80b14c1b4347704144e717b78c4133"
+		},
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"auth": {
+			"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+			"accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+			"display_name": "userpass-ellen",
+			"policies": ["acct_manager", "default"],
+			"token_policies": ["default"],
+			"identity_policies": ["acct_manager", "default"],
+			"metadata": {
+				"username": "ellen"
+			},
+			"entity_id": "5556177d-9e72-52f0-c3ee-5c300f4c6ea8",
+			"token_type": "service"
+		}
+	}
+}
+
+// ELLEN ACCESS CONTROL GROUP REQUEST
+{
+	"time": "2020-04-22T16:58:10.017302Z",
+	"type": "request",
+	"auth": {
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"display_name": "userpass-ellen",
+		"policies": ["default", "default", "acct_manager"],
+		"token_policies": ["default"],
+		"identity_policies": ["default", "acct_manager"],
+		"metadata": {
+			"username": "ellen"
+		},
+		"entity_id": "5556177d-9e72-52f0-c3ee-5c300f4c6ea8",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "fce72370-be46-a744-d1d1-ef5b6dd9f33e",
+		"operation": "update",
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"client_token_accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/control-group/request",
+		"data": {
+			"accessor": "hmac-sha256:22c2863530705b6cafec13303ac2926ad7eb44276db9bc18d6f003f5202d93c3"
+		},
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2020-04-22T16:58:10.018149Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"display_name": "userpass-ellen",
+		"policies": ["default", "default", "acct_manager"],
+		"token_policies": ["default"],
+		"identity_policies": ["default", "acct_manager"],
+		"metadata": {
+			"username": "ellen"
+		},
+		"entity_id": "5556177d-9e72-52f0-c3ee-5c300f4c6ea8",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "fce72370-be46-a744-d1d1-ef5b6dd9f33e",
+		"operation": "update",
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"client_token_accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/control-group/request",
+		"data": {
+			"accessor": "hmac-sha256:22c2863530705b6cafec13303ac2926ad7eb44276db9bc18d6f003f5202d93c3"
+		},
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"data": {
+			"approved": false,
+			"authorizations": null,
+			"request_entity": {
+				"id": "hmac-sha256:e9ed2a3ce4f6cbe7543af7e620c1dd3bfaad227ab82b643f27081a4dcd99e1b8",
+				"name": "hmac-sha256:55241f86f85e227938a78a67ca8812d844cd3ca53d4c7518cf95b78692ee401f"
+			},
+			"request_path": "hmac-sha256:8443d8ca5b585a1747e6836706cdd2bc0e5dc47589ce68c55ad1b0cd7c28267c"
+		}
+	}
+}
+
+// ELLEN AUTHORIZE CONTROL GROUP
+{
+	"time": "2020-04-22T16:58:11.650074Z",
+	"type": "request",
+	"auth": {
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"display_name": "userpass-ellen",
+		"policies": ["default", "default", "acct_manager"],
+		"token_policies": ["default"],
+		"identity_policies": ["default", "acct_manager"],
+		"metadata": {
+			"username": "ellen"
+		},
+		"entity_id": "5556177d-9e72-52f0-c3ee-5c300f4c6ea8",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "432317cf-8af8-5a38-3b81-9214f9c74e45",
+		"operation": "update",
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"client_token_accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/control-group/authorize",
+		"data": {
+			"accessor": "hmac-sha256:22c2863530705b6cafec13303ac2926ad7eb44276db9bc18d6f003f5202d93c3"
+		},
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2020-04-22T16:58:11.651444Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"display_name": "userpass-ellen",
+		"policies": ["default", "default", "acct_manager"],
+		"token_policies": ["default"],
+		"identity_policies": ["default", "acct_manager"],
+		"metadata": {
+			"username": "ellen"
+		},
+		"entity_id": "5556177d-9e72-52f0-c3ee-5c300f4c6ea8",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "432317cf-8af8-5a38-3b81-9214f9c74e45",
+		"operation": "update",
+		"client_token": "hmac-sha256:f2ecc59adecfc3ee04c75b6828b5dd43e4b6e3e7631fa56209c1afbfc24d22fd",
+		"client_token_accessor": "hmac-sha256:e6d617dc7a3d0e190e9bcabd1d7c226dafed7e618e6328993be5e94e80307b85",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/control-group/authorize",
+		"data": {
+			"accessor": "hmac-sha256:22c2863530705b6cafec13303ac2926ad7eb44276db9bc18d6f003f5202d93c3"
+		},
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"data": {
+			"approved": true
+		}
+	}
+}
+
+/////////////////
+// LOGIN BOB
+{
+	"time": "2020-04-22T16:58:43.47421Z",
+	"type": "request",
+	"auth": {
+		"token_type": "default"
+	},
+	"request": {
+		"id": "66faf165-eecb-c49e-b8ee-06a7b092b559",
+		"operation": "update",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/userpass/login/bob",
+		"data": {
+			"password": "hmac-sha256:96fcb166efc4a944e136d36bb3ca17bafa80b14c1b4347704144e717b78c4133"
+		},
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2020-04-22T16:58:43.549935Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:b3465be00838e65c2adc028b6c0651e1a22b43c625b48e550f315a3a648ef038",
+		"accessor": "hmac-sha256:3fce22354c97b27c54172b41b0cc0438358ebb4d484cec8d7715c9b86e4f1904",
+		"display_name": "userpass-bob",
+		"policies": ["default", "read-gdpr-order"],
+		"token_policies": ["default"],
+		"identity_policies": ["read-gdpr-order"],
+		"metadata": {
+			"username": "bob"
+		},
+		"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "66faf165-eecb-c49e-b8ee-06a7b092b559",
+		"operation": "update",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "auth/userpass/login/bob",
+		"data": {
+			"password": "hmac-sha256:96fcb166efc4a944e136d36bb3ca17bafa80b14c1b4347704144e717b78c4133"
+		},
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"auth": {
+			"client_token": "hmac-sha256:b3465be00838e65c2adc028b6c0651e1a22b43c625b48e550f315a3a648ef038",
+			"accessor": "hmac-sha256:3fce22354c97b27c54172b41b0cc0438358ebb4d484cec8d7715c9b86e4f1904",
+			"display_name": "userpass-bob",
+			"policies": ["default", "read-gdpr-order"],
+			"token_policies": ["default"],
+			"identity_policies": ["read-gdpr-order"],
+			"metadata": {
+				"username": "bob"
+			},
+			"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+			"token_type": "service"
+		}
+	}
+}
+
+// BOB UNWRAP DATA
+{
+	"time": "2020-04-22T16:58:57.381358Z",
+	"type": "request",
+	"auth": {
+		"client_token": "hmac-sha256:b3465be00838e65c2adc028b6c0651e1a22b43c625b48e550f315a3a648ef038",
+		"accessor": "hmac-sha256:3fce22354c97b27c54172b41b0cc0438358ebb4d484cec8d7715c9b86e4f1904",
+		"display_name": "userpass-bob",
+		"policies": ["default", "read-gdpr-order"],
+		"token_policies": ["default"],
+		"identity_policies": ["read-gdpr-order"],
+		"metadata": {
+			"username": "bob"
+		},
+		"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "9c1299d6-803f-4f04-9c9b-0a8528bcd11e",
+		"operation": "update",
+		"client_token": "hmac-sha256:b3465be00838e65c2adc028b6c0651e1a22b43c625b48e550f315a3a648ef038",
+		"client_token_accessor": "hmac-sha256:3fce22354c97b27c54172b41b0cc0438358ebb4d484cec8d7715c9b86e4f1904",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/wrapping/unwrap",
+		"data": {
+			"token": "hmac-sha256:e2ed4fddb4b5a1c71216e349fc80fb05644de6e8793bd8258c062d6d7bf2e98c"
+		},
+		"remote_address": "127.0.0.1"
+	}
+} {
+	"time": "2020-04-22T16:58:57.385267Z",
+	"type": "response",
+	"auth": {
+		"client_token": "hmac-sha256:b3465be00838e65c2adc028b6c0651e1a22b43c625b48e550f315a3a648ef038",
+		"accessor": "hmac-sha256:3fce22354c97b27c54172b41b0cc0438358ebb4d484cec8d7715c9b86e4f1904",
+		"display_name": "userpass-bob",
+		"policies": ["default", "read-gdpr-order"],
+		"token_policies": ["default"],
+		"identity_policies": ["read-gdpr-order"],
+		"metadata": {
+			"username": "bob"
+		},
+		"entity_id": "63267394-8fb7-0651-ba62-e3899a7770ee",
+		"token_type": "service"
+	},
+	"request": {
+		"id": "9c1299d6-803f-4f04-9c9b-0a8528bcd11e",
+		"operation": "update",
+		"client_token": "hmac-sha256:b3465be00838e65c2adc028b6c0651e1a22b43c625b48e550f315a3a648ef038",
+		"client_token_accessor": "hmac-sha256:3fce22354c97b27c54172b41b0cc0438358ebb4d484cec8d7715c9b86e4f1904",
+		"namespace": {
+			"id": "root"
+		},
+		"path": "sys/wrapping/unwrap",
+		"data": {
+			"token": "hmac-sha256:e2ed4fddb4b5a1c71216e349fc80fb05644de6e8793bd8258c062d6d7bf2e98c"
+		},
+		"remote_address": "127.0.0.1"
+	},
+	"response": {
+		"data": {
+			"data": {
+				"order_number": "hmac-sha256:9eb21bfff88db01f6bcf2dd5d83d9ced8000ce85e734329f8eaadba832396a43",
+				"product_id": "hmac-sha256:73c157a1c8d0ca26601b3d1b762dd484e3945d65a29ab914b9798950fa9955b6"
+			},
+			"metadata": {
+				"created_time": "hmac-sha256:d14d0ff2cf3c0e8dd2210eb46de605f7403a5dea08fbf987e6254c8ae3deac9a",
+				"deletion_time": "hmac-sha256:66c5f085504b4d93e57c1de6ad1791d39f722c08bd4b42984fbb580f7dd4a889",
+				"destroyed": false,
+				"version": "hmac-sha256:53c0cb9a93c2b674f0967c8178451e7227795d42f71136d203e40f2abf26a3bf"
+			}
+		}
+	}
+}

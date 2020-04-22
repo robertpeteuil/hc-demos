@@ -1,0 +1,16 @@
+{
+  "request_id": "",
+  "lease_id": "",
+  "lease_duration": 0,
+  "renewable": false,
+  "data": null,
+  "warnings": null,
+  "wrap_info": {
+    "token": "s.zDFMaHjTeDpmjDefCnTP6iOP",
+    "accessor": "dBCzeyEAq9JGnmvBESGbG7k4",
+    "ttl": 86400,
+    "creation_time": "2020-04-22T09:52:54-07:00",
+    "creation_path": "EU_GDPR_data/data/orders/acct1",
+    "wrapped_accessor": ""
+  }
+}
